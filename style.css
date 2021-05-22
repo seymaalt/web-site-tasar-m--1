@@ -8,8 +8,35 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-
+color:black;
     background-color: rgb(183, 190, 190);
+	
+	
+}
+
+nav{
+font-family: 'Montaga', serif;
+font-family: 'Roboto', sans-serif;
+text-align:center;
+
+	font-size: 20px;
+
+}
+
+.line{
+	
+	width:0px;
+	height:2px;
+	background-color:black;
+	visibility:hidden;
+	transition:all 0.5s ease;
+}
+
+a:hover + .line{
+	
+	
+	width:100%;
+	visibility:visible;
 }
 
 #p{
@@ -19,6 +46,8 @@ vertical-align: 300px;
     text-align: center;
     
 }
+
+
 .slider{
     top: 120px;
     position: relative;
@@ -38,10 +67,11 @@ vertical-align: 300px;
     transition: all .6s;
 }
 
+
 #img1{ opacity: 1;}
-#img1{ opacity: 0;}
-#img1{ opacity: 0;}
-#img1{ opacity: 0;}
+#img2{ opacity: 0;}
+#img3{ opacity: 0;}
+#img4{ opacity: 0;}
 
 .fas{
     cursor: pointer;
@@ -91,123 +121,117 @@ vertical-align: 300px;
     text-align: center;
 }
 
-.p{
-    top: 300px;
-}
 
 main{
     top: 300px;
 }
 
-
-
-#contact{
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-}
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-.title{
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.contact-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cont-left{
-    width: 40%;
-    padding: 3rem;
-}
-.cont-top{
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #ffffff;
-}
-.cont-element{
-    margin: 0.5rem 0;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-}
-.cont-element i{
-    color: #ffffff;
-    padding: 0.7rem;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    transition: all 0.4s ease;
-}
-.cont-element:hover i{
-    background-color: #ffffff;
-    color: #011627;
-}
-.cont-element a{
-    color: #ffffff;
-    text-decoration: none;
-}
-.cont-bottom{
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.cont-bottom a{
-    color: #ffffff;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
-    font-size: 1.5rem;
-    background-color: #181818;
-    border-radius: 50%;
-}
-.cont-bottom a:hover{
-    color: #181818;
-    background-color: #ffffff;
+#nav1{
+	 font-family: "Roboto", Helvetica, Arial, sans-serif;
+    
+    color: black;
 }
 
 
-.cont-right{
-    width: 60%;
-    padding: 3rem;
+#submit{
+	
+	background-color:#bdc3c7; 
+
+           color: black;
+	
+	text-align:center; width:790px;font-family:bold;
 }
-.cont-right form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
+#tablo{
+	
+	background-color:white;
+	margin: 100px auto;text-align:center; width:960px; font-size:25px;
 }
-.cont-right form input, textarea, button{
-    width: 100%;
-     margin: 1rem 0;
-    background-color: transparent;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-    outline: none;
-    border: 1px solid #ffffff;
-    color: #ffffff; 
-    transition: all 0.4s ease;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.cont-right form button{
-    background-color: #ffffff;
-    color: #011627;
-    cursor: pointer;
+
+body{
+	 
+	font-family:'montserrat', sans-serif;
+	color:black;
+	background-color: rgb(183, 190, 190);
+	height:100vh;
+	
+	
+	
+	
 }
-.cont-right form button:hover{
-    background-color: #011627;
-    color: #ffffff;
+
+.app{
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align:center;
+
+	height: 100vh;
+	
 }
-.cont-right form input:hover, textarea:hover{
-    color: #011627;
-    background-color: #ffffff;
+
+.header{
+    padding: 50px 20px 30px 20px;
+	margin: 100px auto;text-align:center; width:700px;
+	
 }
-.cont-right form input:focus, textarea:focus{
-    color: #011627;
-    background-color: #ffffff;
+
+.header h1{
+	
+	font-size:50px;
+	color:#fbb034;
+	text-shadow: 1px 3px rgba(0,0,0,.9);
+	
+}
+
+.header input{
+	
+	width:100%;
+	padding:10px;
+	background:transparent;
+	border:0;
+	outline:0;
+	border-bottom:2px solid ;
+	text-align:center;
+	font-size:20px;
+	color: black;
+	
+}
+
+
+.city{
+	
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:15px;
+	text-shadow: 1px 3px rgba(0,0,0,.2);
+	
+}
+
+ .temp {
+	
+	font-size:25px;
+	font-weight:500;
+	margin-bottom:15px;
+	text-shadow: 1px 3px rgba(0,0,0,.2);
+	
+}
+
+
+
+ .minmax{
+	
+	font-size:25px;
+	font-weight:500;
+	margin-bottom:15px;
+	text-shadow: 1px 3px rgba(0,0,0,.2);
+	
 }

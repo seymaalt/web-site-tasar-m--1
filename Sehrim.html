@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html>
-	<meta charset="utf-8">
+	  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    
-    
+<!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Ikon Kutuphanesi -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-     <title>Şehrim-Karabük</title>
-	 <link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montaga&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	
+	
+    <link rel="stylesheet"  href="style.css">
+	
+    <title>SBOLG</title>
 <head>
 
 <body>
       
-	<nav id="nav1" class="navbar navbar-expand-sm fixed-top">
-		<a href="#" ><img src="images/logo1.png" style="width: 200px;" title="sblog"></a>
-	   <div id="" class="collapse navbar-collapse justify-content-center">
-		   <ul id="menu" class="navbar-nav">
-			   <li class="nav-item " ><a href="#" class="nav-link ml-4 ">Hakkımda    </a> </li>
-			   <li class="nav-item " ><a href="#" class="nav-link ml-4">Eğitim Bilgilerim    </a> </li>
-			   <li class="nav-item " ><a href="Sehrim.html" target="_self" class="nav-link ml-4 ">Şehrim </a> </li>
-			   <li class="nav-item " ><a href="#" class="nav-link ml-4 ">Mirasımız    </a> </li>
-			   <li class="nav-item " ><a href="#" class="nav-link ml-4 ">İlgi Alanlarım    </a> </li>
-			   <li class="nav-item " ><a href="iletisim.html" class="nav-link ml-4 ">İletişim     </a> </li>
-			  
-		   </ul>
+	<nav class="navbar  navbar-expand-sm  navbar-light bg-light fixed-top"> 
+<a href="#" ><img src="images/logo1.png" style="width: 200px;" title="sblog"></a>
+  <div class="container">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Hakkımda</a>
+		  <div class="line"></div>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="EgitimBilgilerim.html">Eğitim Bilgilerim </a>
+		  <div class="line"></div>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Sehrim.html">Şehrim </a>
+		  <div class="line"></div>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Mirasimiz.html">Mirasımız</a>
+		  <div class="line"></div>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="ilgialanlarım.html">İlgi Alanlarım</a>
+		  <div class="line"></div>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="iletisim.html">İletişim </a>
+		  <div class="line"></div>
+        </li>
+         <li class="nav-item">
+			 <a class="nav-link active" aria-current="page" href="login.php"> GİRİŞ</a>
+		  <div class="line"></div>				
+        
+      </ul>
+    
+    </div>
+  </div>
+</nav>
 
-	   </div>
-
-	</nav>
+	  
 
   
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-  
-	<section>
+    
+	<section  id="navigation">
 
      	<div class="slider">
-		<img src="images/safranbolu-evleri.jpg" id="img1">
+	<img src="images/safranbolu-evleri.jpg" id="img1" >
 		<img src="images/seker-kanyonu.jpg" id="img2">
 		<img src="images/incekayasukemeri.jpg" id="img3">
 		<img src="images/camteras.jpg" id="img4">
@@ -55,6 +93,13 @@
 	  <script type="text/javascript">
 	
     	var imgNum=1;
+		
+		
+ 
+  
+  
+     
+		
 	 
 	 function right()
 	 {
@@ -88,12 +133,112 @@
     	}
 
 	 </script>
-                <h6>KARABÜK</h6>
-     
-	</section>     
-	
-	    
+                
+				
+<br> <br> <br> <br> <br> <br> 
+		<div class=" text-black jumbotron" style="width:900px;">
 
+			<div class="container">
+
+				<div class="col-md-6 px-0">
+					<h1 class="display-4 text-black font-italic">
+						KARABÜK
+					</h1>
+					
+					<iframe style="width:450px;height:250px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96054.85698908326!2d32.58062219094432!3d41.20620233274038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40835335ca55f4a3%3A0x58c149eab8f0a954!2zS2FyYWLDvGssIEthcmFiw7xrIE1lcmtlei9LYXJhYsO8aw!5e0!3m2!1str!2str!4v1620849586437!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					<br><br><br>
+					<p style="width:600px;">
+					Karabük merkez olmasına rağmen, Safranbolu ilçesi tarihsel evleri sebebiyle ismini daha çok duyurmuştur.<br> 
+					Bunun yanında Türkiye'nin ilk demir çelik fabrikasının bulunduğu Karabük merkezinde, bu fabrika sayesinde geniş bir iş sahası oluşturularak Karabük'ün gelişimi sağlanmıştır.<br>
+					Karabük, kurulan demir çelik fabrikası ve yan sanayilerle hızla gelişmiş ve büyük bir kalkınma örneği yaratmıştır.<br>
+					Ayrıca il genelinde tekstil sanayi özellikle hazır giyim sektöründe gelişmiştir.
+					
+					</p>
+					<br><br>
+					<p style="width:600px;">
+					Karabük, adını üzerinde yaşadığı coğrafi ortamdan almıştır. "Kara" ve "Bük" sözcükleri, kara çalılık yer anlamında, Karabük adının oluşumuna kaynaklık yapmıştır.[kaynak belirtilmeli] Bu topraklarda yaşayan Türkmen toplulukları, Karabük cemaati adını bu biçimde almışlardır. Türkiye'de 14 yer ve mevki adının bugün Karabük şeklinde geçmesi,[kaynak belirtilmeli] cemaatlerin bu topraklardan diğer yerlere göç ettiği görüşünü kuvvetlendirmektedir.[kaynak belirtilmeli]
+					</p>
+					
+					<br><br><br><br><br><br>
+					
+					<h3>Karabük'ün Adı</h3>
+					<br><br>
+					<p style="width:600px;">
+					Özhan Öztürk'e göre Karabük adı Türkçe “siyah” ve “kuzey”, anlamlarına gelen kara ile bük kelimesinin ise “çalılık” ve “dere kenarında yer alan arazi” anlamlarında kullanılan 'bük' kelimelerinin birleşiminden oluşmaktadır. Bununla birlikte Osmanlı tahrir defterlerinde Karabük adlı bir Türkmen kavminin adına rastlanması bir topluluk adı olabileceğini de düşündürmektedir [2].
+					</p>
+					<br><br>
+					<img src="images/karabuk.jpg" style="width:600px; height:300px;">
+					<br><br>
+					<h3>Karabük tarihi</h3>
+					<br><br>
+					<p style="width:600px;">
+				Safranbolu ilçesinin Öğlebeli Köyüne bağlı 13 haneli bir  köyaltı yerleşim birimi olan Karabük, Ankara - Zonguldak Demiryolu üzerinde  küçük bir istasyon konumunda iken, sanayileşme ile birlikte önemli bir merkez  haline gelmiştir.
+
+3 Nisan 1937’de temeli atılan Karabük Demir Çelik  Fabrikaları 6 Haziran 1939’da faaliyete geçmiştir. Buna paralel olarak nüfus  yoğunluğunun artmaya başladığı Karabük'te 25 Haziran 1939’da belediye teşkilatı  kurulmuştur. 1941 yılında Safranbolu ilçesine bağlı bucak olan Karabük 3 Mart  1953 tarihinde 6068 sayılı kanunla Zonguldak İline bağlı bir ilçe haline  gelmiştir. Karabük, 6 Haziran 1995 gün ve 22305 sayılı Resmi Gazetede  yayınlanan 550 sayılı Kanun Hükmünde Kararname ile Çankırı’dan; Ovacık ve  Eskipazar ilçeleri ile Zonguldak’tan; Eflani, Safranbolu ve Yenice ilçelerinin  birleştirilmesiyle Türkiye’nin 78. İli olmuştur.
+					</p>
+					
+					<iframe width="550px" height="300px" frameborder="0" src="https://izleyci.web.tv/embed/rnfl8zlcaqu" allowfullscreen="allowfullscreen"></iframe>
+					
+					<br><br><br>
+					<h3>Karabük'ün Coğrafi Yapısı</h3>
+					<br><br>
+					<h4>Arazi yapısı</h4>
+					<br><br>
+					<p style="width:600px;">
+					Karabük etrafı yüksek dağ ve tepelerle çevrili bir havza karakteri  gösterir. 250–500 m.  yüksekliğe sahiptir. Kuzeyindeki dağlık alandan kaynaklanan tali dereler, şehre  doğru taşıdıkları maddelerle alüvyal bir dolgu oluşturmuştur.
+					</p>
+					
+					
+					<h4>Yeryüzü Şekilleri</h4>
+					<br><br>
+					<p style="width:600px;">
+					  Karabük  ilinin önemli bir kısmı Kuzey Anadolu Dağları’nın batıda kalan kısmını  oluşturan dağların uzantılarından oluşur. Kuzey Anadolu Dağlarının bir  parçasını oluşturan ildeki dağlar kıvrım dağlarıdır. Bu dağların yüksekliği 2.000 m. yi geçmez.  Karabük’ün kuzeyinde, batıya doğru uzanan geniş bir dağlık alan bulunmaktadır.  Küre Dağları’nın uzantıları niteliğindeki bu alanda, ortalama 1.400 m. yüksekliğe sahip  Çiğdem tepe-Boyunduruk tepe-Tekirdağ-Üçbel tepe-Döneğen tepe-Çanakçı tepe ve  Başköy dağları yer alır. Bolu Dağları’nın uzantısı niteliğinde olan Yenice  çevresindeki en önemli yükselti ise Keçikıran tepesi (1.400 m.) dir.
+
+                      Karabük’te en  önemli yaylalar, Avdan Yaylası, Dede Yaylası, Sorkun Yaylası, Uluyayla, Göktepe  Yaylası, Sarıçiçek Yaylası ve Boduroğlu Yaylası’dır.
+
+                      Karabük’ün doğal güzellikleri arasında kanyonların ayrı  bir yeri vardır. Daha çok Safranbolu’da kireçtaşı tabakalarının derin biçimde  yarılması ile kanyonlar ortaya çıkmıştır. Bölgenin arazi yapısını ilgi çekici  hale getiren bu kanyonların başlıcaları İncekaya Kanyonu Düzce(Kirpe) Kanyonu,  Tokatlı ve Sakaralan (Tekekurum)’dır. Yenice’de yer alan Şeker Çayı ise 6,5 km. uzunluğunda,  kenarları oldukça dik ve yüksek olan Şeker Kanyonu’nu oluşturmuştur.
+
+                      İlde yer alan  Bulak (Mencilis) ve Hızar Mağarası en tanınmış olanlarıdır. 6.502 m uzunluğu ile  Türkiye’nin 4. büyük mağarası olan Bulak (Mencilis) mağarasında karstik  oluşumlar ve bir yer altı nehri bulunmaktadır. Ayrıca, Sipahiler Köyü’nde  bulunan ve 61 basamakla çıkılan bir mağara bulunmaktadır.
+
+                      Karabük ilinin en önemli akarsuyu Filyos Irmağı’dır. Bu  ırmağın iki önemli kolu olan Araç ve Soğanlı çayları il topraklarındaki önemli  akarsulardır.
+
+                      İlimizde  doğal göl bulunmamaktadır.
+					</p>
+					<br><br>
+					
+					<img src="images/Karabükcografi.png" style="width:600px; height:300px;">
+					
+					<h3>Karabük'ün İklimi</h3>
+					<br><br>
+					<p style="width:600px;">
+					Karadeniz Bölgesi’nin Batı Karadeniz Bölümü’nde yer alan  Karabük’te Karadeniz ikliminin özellikleri görülmektedir. Yalnız Karabük,  kıyıdan içeride kaldığı için, Karadeniz’in nemli havasından yeterince  yararlanamamakta, karasal iklimin özellikleri daha ağır basmaktadır. Karadeniz  ikliminden karasal ilkime geçiş sahasındaki Karabük’te geçiş tipi iklim etkili  olmaktadır.
+					</p>
+					<br><br><br>
+					<h3>Karabük'ün Bitki Örtüsü Ve Ormanları </h3>
+					<br><br>
+					<p style="width:600px;">
+					Dağların  geniş yer kapladığı Karabük’te ormanlar son derece yaygındır. İlimiz, Türkiye  geneli ormanlık alan durumlarına göre % 68,8’lİk orman alanı ile birinci  sırada yer almaktadır.
+					</p>
+					<br><br>
+					<img src="images/orman.jpg" title="Karabük/Yenice" style="width:600px; height:300px;">
+					
+					
+				</div>
+				
+				
+
+			</div>
+
+		</div>
+
+	
+	
+	 </section>     
+	
+	      <!-- BOOTSTRAP -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>	
 
 </html>
